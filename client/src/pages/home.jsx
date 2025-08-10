@@ -3,8 +3,7 @@ import QRGenerator from '../components/QRGenerator';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
-const demoURL = `http://192.168.1.100:5173/ar?sessionId=${Date.now()}`;
-
+  const demoURL = "https://www.youtube.com/@ARHorizon/shorts";
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       <section>
