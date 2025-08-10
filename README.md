@@ -177,7 +177,17 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
-7️⃣ Start the frontend:
+
+Use ngrok:
+
+```
+npm install -g ngrok
+npm run dev -- --host
+ngrok http 5173
+```
+Copy the ```https://something.ngrok-free.app```
+URL — that’s your new frontend URL.
+8️⃣ Start the frontend:
 ```
 npm run dev
 ```
